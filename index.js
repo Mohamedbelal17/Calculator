@@ -16,15 +16,6 @@ function getResult() {
     el.value = "Error";
   }
 }
-// try {
-//     if (/[\+\-\*\/]$/.test(str)) {
-//       throw new Error("Incomplete calculation");
-//     }
-//     let result = eval(str);
-//     el.value = result;
-//   } catch (error) {
-//     el.value = "Error";
-//   }
 
 function Rest() {
   document.getElementById("result").value = "";
