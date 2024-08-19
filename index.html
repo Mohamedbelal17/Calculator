@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <input class="output" type="text" id="result" />
+        <div class="input">
+            <input value="C" type="button" class="orange" onclick="Rest()" />
+            <input value="←" type="button" class="orange" onclick="Delete()" />
+            <input value="%" type="button" onclick="getValue('%')" />
+            <input value="/" type="button" onclick="getValue('/')" />
+            <input value="7" type="button" onclick="getValue('7')" />
+            <input value="8" type="button" onclick="getValue('8')" />
+            <input value="9" type="button" onclick="getValue('9')" />
+            <input value="x" type="button" onclick="getValue('*')" />
+            <input value="4" type="button" onclick="getValue('4')" />
+            <input value="5" type="button" onclick="getValue('5')" />
+            <input value="6" type="button" onclick="getValue('6')" />
+            <input value="-" type="button" onclick="getValue('-')" />
+            <input value="1" type="button" onclick="getValue('1')" />
+            <input value="2" type="button" onclick="getValue('2')" />
+            <input value="3" type="button" onclick="getValue('3')" />
+            <input value="+" type="button" onclick="getValue('+')" />
+            <input value="00" type="button" onclick="getValue('00')" />
+            <input value="0" type="button" onclick="getValue('0')" />
+            <input value="." type="button" onclick="getValue('.')" />
+            <input value="=" type="button" onclick="getResult()" />
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+
+</html>
